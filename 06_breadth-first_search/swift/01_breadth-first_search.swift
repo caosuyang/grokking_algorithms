@@ -47,7 +47,7 @@ public struct Deque<T> {
 }
 
 func persionIsSeller(name: String) -> Bool {
-    return name.characters.last == "m"
+    return name.last == "m"
 }
 
 var graph = [String : [String]]()
